@@ -1,0 +1,87 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+/* Background image  */
+body{
+    font-family: 'Arvo', serif;
+    background: url("main-bg.jpg") no-repeat center center;
+    background-attachment: fixed;
+    /* background-position: right; */
+    /* background-size: cover; */
+}
+
+/* Modify the background color */
+.navbar-light, .footer {
+    background-color: #F0EFFF;
+}
+
+/* Modify brand and text color */
+.navbar-light .navbar-brand {
+    color: #7065FF;
+}
+
+/*Code to change color of active link*/
+.navbar-light .navbar-nav .nav-item  a {
+    color: #7065FF;
+}
+
+/* Modify hover color */
+/* ul.navbar-nav a:hover,
+ul.navbar-nav a:active */
+
+/* .navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item:hover .nav-link{ 
+    color: #0c0d4b; 
+} */
+
+/* .navbar-nav .nav-item .nav-link {
+    color: red;
+} */
+
+/* .navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: pink;
+} */
+
+/* toggler button */
+.navbar-light .navbar-toggler{
+    color: #F0EFFF;
+    border-color: #F0EFFF;
+}
+
+
+/* style jumbotron */
+#myContainer{
+    /* background-color: transparent; */
+    text-align: center;
+    letter-spacing: 2.5px;
+    padding: 10px;
+    margin-top: 150px;
+}
+
+/* buttons */
+.signup{
+    margin-top: 50px;
+}
+
+.blue{
+    /* background-color: #7065FF; */
+    background-color:  rgb(112,101,255);
+}
+
+.blue:hover{
+    background-color: rgba(112,101,255, 0.8);
+}
+
+
+
+/* footer */
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
